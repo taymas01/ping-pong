@@ -38,8 +38,8 @@ class Player(Gamesprite):
         if keys[K_DOWN] and self.rect.y < 435:
             self.rect.y += self.speed
 
-left = Player('racket.png', 0, 435,30,100, 5)
-right = Player('racket.png', 400, 435,30,100, 5)
+left = Player('racket.png', 0, 200,30,100, 5)
+right = Player('racket.png', 670, 200,30,100, 5)
 ball = Gamesprite('tenis_ball.png', 100, 100,50,50, 5)
 
 game = True
